@@ -94,7 +94,7 @@ function App() {
       <SearchBar handleSearchNote={setSearchNote} />
       <Categories />
       <NoteListContainer
-        notes={notes.filter((note) => note.category.includes(searchNote))}
+        notes={notes.filter((note) => note.text.includes(searchNote))}
         handleAddNote={addNote}
         handleOnDelete={deleteNote}
         handleFileNote={fileNotes}
