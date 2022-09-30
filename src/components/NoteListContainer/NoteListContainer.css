@@ -1,0 +1,14 @@
+.note-list-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 50px;
+}
+.show-archived-notes{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.title-screen{
+    margin-bottom: 10px;
+}

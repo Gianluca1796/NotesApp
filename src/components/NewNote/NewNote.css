@@ -1,0 +1,46 @@
+textarea{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+textarea:focus{
+    outline: none;
+}
+button{
+    border: none;
+    padding: 5px 10px;
+    background-color: #00ce89 ;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    color: #F1E9DB;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.newnote-footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+.save-note{
+    display: flex;
+    flex-direction: column;
+}
+.button-save-note{
+    display: flex;
+    justify-content: flex-end;
+}
