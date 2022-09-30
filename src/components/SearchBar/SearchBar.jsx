@@ -8,7 +8,7 @@ const SearchBar = ({ handleSearchNote }) => {
             <h1>Tu app de notas!</h1>
             <div className='search-bar'>
                 <BiSearch className='search' />
-                <input onChange={(event) => handleSearchNote(event.target.value.toLowerCase())} type="text" placeholder='Buscá por nombre o categoría' />
+                <input onChange={(event) => handleSearchNote(event.target.value.toLowerCase())} type="text" placeholder='Buscá por nombre' />
             </div>
         </>
     )
